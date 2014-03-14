@@ -11,18 +11,38 @@
     	<fieldset >
         	<legend>Dados Pessoais</legend>
             <label for="nome">Nome*: </label>
-            <input type="text" name="nome" required placeholder="Seu Nome">
+            <input type="text" name="nome" required placeholder="Seu Nome"><br>
             
             <label for="sobrenome">Sobrenome*: </label>            
-            <input type="text" name="sobrenome" required placeholder="Seu Sobrenome">            
+            <input type="text" name="sobrenome" required placeholder="Seu Sobrenome"><br>
             
             <textarea name="obs" >
-            </textarea>
+            </textarea><br>
             
             <input type="button" value="Cadastrar falso" disabled>
             <input type="submit" value="Cadastrar">
-            <input type="reset" value="Limpar">            	
+            <input type="reset" value="Limpar"><br>
+            
+            <input type="checkbox" name="golf" value="true">
+            <input type="checkbox" name="futebol" >
+            <input type="checkbox" name="volei" >
+            <input type="checkbox" name="minecraft" ><br>
+            
+            <label> Masculino </label>            
+            <input type="radio" name="sexo" value="1">
+            
+            <label> Feminino </label>
+            <input type="radio" name="sexo" value="2"><br>
 
+           <select name="estados">
+           		<optgroup label="Estados">
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="pr">Parana</option>                                                                
+                </optgroup>
+           </select>
+            
         </fieldset>        	
     </form>  
   </body>
