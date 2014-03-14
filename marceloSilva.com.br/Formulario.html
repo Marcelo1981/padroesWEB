@@ -10,13 +10,19 @@
     
     	<fieldset >
         	<legend>Dados Pessoais</legend>
-            
+            <label for="nome">Nome*: </label>
             <input type="text" name="nome" required placeholder="Seu Nome">
-            <input type="text" name="sobrenome" required placeholder="Seu Sobrenome">
             
-            <input type="button" value="Cadastrar falso">
+            <label for="sobrenome">Sobrenome*: </label>            
+            <input type="text" name="sobrenome" required placeholder="Seu Sobrenome">            
+            
+            <textarea name="obs" >
+            </textarea>
+            
+            <input type="button" value="Cadastrar falso" disabled>
             <input type="submit" value="Cadastrar">
-            <input type="reset" value="Limpar">
+            <input type="reset" value="Limpar">            	
+
         </fieldset>        	
     </form>  
   </body>
