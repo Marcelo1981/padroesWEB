@@ -1,14 +1,6 @@
 @charset "utf-8";
 /* CSS Document 
 
-o # refere-se ao id
-*/
-#navbar{
-	
-}
-/* o . refere-se a classe*/
-.class{
-}
 
 /*chamando tag quando coloca nome direto */
 header#navbar{
@@ -24,6 +16,9 @@ header#navbar{
 */	
 	font-size:    14px;
 	background:   #909;
+	
+	/*css3*/
+	box-shadow:2px 5px 10px #000;
 }
 
 header a{
