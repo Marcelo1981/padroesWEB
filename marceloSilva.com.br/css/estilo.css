@@ -26,7 +26,23 @@ header#navbar {
 header a {
 	color: #fff;
 	text-decoration: none;
+	background:#90c;
+	padding:5px;
+	height:20px;
+	position:relative;
+	float:left;
+	margin:0px 1px 0px 0px;
 }
+
+#navbar h1{
+	position:relative;
+	float:left;
+	width:auto;
+	font-size:24px;
+	padding:10px;
+	height:20px
+}
+
 #navbar ul {
 	width: auto;
 	height: auto;
