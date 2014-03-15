@@ -94,3 +94,11 @@ body {
 	padding: 0px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
+
+@media screen and (max-width:700px){
+	body{
+		background:#fc0 !important;
+	}	
+}
+
+@import url('cor.css');
